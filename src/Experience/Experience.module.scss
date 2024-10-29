@@ -1,0 +1,294 @@
+body{
+    background-color: rgb(56, 106, 181);
+}
+.experienceContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    gap:20px
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+.buttons > button{
+    background-color: rgb(36, 44, 152);
+    color: white;
+    font-family: "Anton", serif;
+    font-size: 30px;
+    border-radius: 20cap;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:20px
+}
+.karHud {
+    display: flex;
+    border-radius: 2cap;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    background-color:#293673
+}
+.course{
+    display: flex;
+    border-radius: 2cap;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    background-color:#293673
+}
+.tech{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Anton", serif;
+}
+.Project{
+    color: #98f2ca;
+    font-family: "Anton", serif;
+}
+.description{
+    width: 337px;
+    margin: 0;
+}
+.name{
+    color: #00e47d;
+    font-family: "Anton", serif;
+}
+.myPage {
+    background-color: #10636f;
+    height: 100px;
+    width: 300px;
+}
+.technologies {
+    background-color: #4a5db6;
+    height: 100px;
+    width: 300px;
+}
+.calvin{
+    display: none;
+}
+@media screen and (min-width: 450px) {
+    .experienceContainer{
+        background-color: rgb(56, 106, 181);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100vw;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .buttons > button{
+        background-color: rgb(36, 44, 152);
+        color: white;
+        border-radius: 20cap; 
+        font-weight: 800;
+        font-style: normal;
+        width: 50%;
+    }
+    .exp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap:20px
+    }
+    .karHud {
+        display: flex;
+        border-radius: 2cap;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        background-color:#293673
+    }
+    .course{
+        display: flex;
+        border-radius: 2cap;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        background-color:#293673
+    }
+    .tech{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-family: "Anton", serif;
+    }
+    .Project{
+        color: #98f2ca;
+        font-family: "Anton", serif;
+    }
+    .description{
+        width: 337px;
+        margin: 0;
+    }
+    .name{
+        color: #00e47d;
+        font-family: "Anton", serif;
+    }
+    .myPage {
+        background-color: #10636f;
+        height: 100px;
+        width: 300px;
+    }
+    .technologies {
+        background-color: #4a5db6;
+        height: 100px;
+        width: 300px;
+    }
+    .calvin{
+        display: none;
+    }
+    }
+    @media screen and (min-width: 750px) {
+        .experienceContainer{
+            background-color: rgb(56, 106, 181);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:100vw;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .buttons > button{
+            background-color: rgb(36, 44, 152);
+            color: white;
+            border-radius: 20cap; 
+            font-weight: 800;
+            font-style: normal;
+            width: 50%;
+        }
+        .exp{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap:20px
+        }
+        .karHud {
+            display: flex;
+            border-radius: 2cap;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+            background-color:#293673
+        }
+        .course{
+            display: flex;
+            border-radius: 2cap;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+            background-color:#293673
+        }
+        .tech{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            font-family: "Anton", serif;
+        }
+        .Project{
+            color: #98f2ca;
+            font-family: "Anton", serif;
+        }
+        .description{
+            width: 553px;
+            margin: 0;
+        }
+        .name{
+            color: #00e47d;
+            font-family: "Anton", serif;
+        }
+        .myPage {
+            background-color: #10636f;
+            height: 100px;
+            width: 300px;
+        }
+        .technologies {
+            background-color: #4a5db6;
+            height: 100px;
+            width: 300px;
+        }
+        .calvin{
+            display: none;
+        }
+}
+@media screen and (min-width: 1200px) {
+    .experienceContainer{
+        background-color: rgb(56, 106, 181);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100vw;
+        gap:87px
+    }
+    .exp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap:20px
+    }
+      .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+        margin-top: 31px;
+      }
+
+    .buttons > button{
+        background-color: rgb(36, 44, 152);
+        color: white;
+        border-radius: 20cap; 
+        font-weight: 800;
+        font-style: normal;
+        width: 20%;
+    }
+    .exp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap:20px
+    }
+    .calvin{
+        display: flex
+    }
+    .karHud {
+        display: flex;
+        border-radius: 2cap;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        background-color:#293673;
+       height: 480px;
+    }
+}
